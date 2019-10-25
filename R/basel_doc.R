@@ -1,0 +1,30 @@
+#' basel
+#'
+#' A tibble containing simulated data of basler inhabitants. Most mean values are based on actual population statistics, however correlations between variables aren't. This is the German version of the data set.
+#'
+#'
+#' @format A tibble containing 10,000 rows and 20 columns
+#' \describe{
+#'   \item{id}{(numeric) - A unique identifier (1 through 150000).}
+#'   \item{alter}{(numeric) - A peson's age in years.}
+#'   \item{einkommen}{(numeric) - Income of the household a person lives in.}
+#'   \item{gewicht}{(numeric) - A person's weight in kg.}
+#'   \item{groesse}{(numeric) - A person's height in cm.}
+#'   \item{kinder}{(numeric) - The number of children a person has.}
+#'   \item{glueck}{(numeric) - How happy a person is on a scale from 1 to 10.}
+#'   \item{fitness}{(numeric) - A person's fitness level rated from 1 to 10.}
+#'   \item{essen}{(numeric) - How much (CHF) a person spends on food per month.}
+#'   \item{alkohol}{(numeric) - How much (CHF) a person spends on alcohol beverages per month.}
+#'   \item{tattoos}{(numeric) - The number of tattoos a person has.}
+#'   \item{rhein}{(numeric) - How often a person goes swimming in the rhine per month.}
+#'   \item{datause}{(numeric) - How many times a day a person checks an app on the mobile phone.}
+#'   \item{arztbesuche}{(numeric) - The number of times a person's sees a doctor per year.}
+#'   \item{wandern}{(numeric) - How many hours a person spends hiking per year.}
+#'   \item{geschlecht}{(character) - A person's sex. Either "m" or "f".}
+#'   \item{bildung}{(character) - The highest completed degree/ education a person has. Levels are "obligatorisch", "lehre", "sek II", "sek III".}
+#'   \item{konfession}{(character) - A person's confession. Levels are "katholisch", "konfessionslos", "evangelisch-reformiert", "muslimisch", "andere".}
+#'   \item{fasnacht}{(character) - Whether a person actively (i.e. in a Gugge, Clique or similar) participates at fasnacht. Levels are "ja" and "nein".}
+#'   \item{sehhilfe}{(character) - Whether a person needs eye correction. Levels are "ja" and "nein".}
+#'  }
+#' @source Simulated with the simulate_basel function with nsim = 10000, and seed = 1
+"basel"

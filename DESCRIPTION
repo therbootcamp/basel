@@ -1,0 +1,18 @@
+Package: basel
+Type: Package
+Title: A simulation of the Basler population (German version)
+Version: 0.1.0
+Author: TheRBootcamp
+Maintainer: TheRBootcamp <therbootcamp@gmail.com>
+Description: Simulate persons of the Basler population. Numeric variables are
+    drawn from a multivariate normal distribution to allow for specified correlations.
+Depends: R (>= 2.10)
+License: CC0
+Encoding: UTF-8
+LazyData: TRUE
+Imports: dplyr,
+    MASS,
+    tibble,
+    corpcor,
+    readr
+RoxygenNote: 6.1.1
