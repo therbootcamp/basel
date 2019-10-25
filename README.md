@@ -1,13 +1,13 @@
 ### Key Functions
 
-Install `baselers` with 
+Install `basel` with 
 
 ```
-# install baselers
-devtools::install_github("therbootcamp/baselers")
+# install basel
+devtools::install_github("therbootcamp/basel")
 ``
 
 
-`simulate_baselers()` contains the code to create data
+`simulate_basel()` contains the code to create data
 
-`write_baselers()` is a wrapper function that runs `simulate_baselers()` and then saves the results to both an `.RData` file, as well as a comma-separated text file in `inst/extdata/baselers.txt` (https://raw.githubusercontent.com/therbootcamp/baselers/master/inst/extdata/baselers.txt)
+`write_basel()` is a wrapper function that runs `simulate_basel()` and then saves the results to both an `.RData` file, as well as a comma-separated text file in `inst/extdata/basel.txt` (https://raw.githubusercontent.com/therbootcamp/basel/master/inst/extdata/basel.txt)
